@@ -1,0 +1,150 @@
+/*---------------------------------- RESET STYLES ----------------------------------*/
+/* HTML5 Doctor Reset Stylesheet */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+/*------------------------------ Global Styles ------------------------------*/
+
+.wrapper {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    height: 130px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav li {
+    line-height: 80px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #444;
+}
+
+section {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.sec_img {
+    background-image: url("img1.png");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    color: white;
+    width: 80%;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.box h1 {
+    font-size: 2.2em;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .sec_img {
+        height: 400px;
+    }
+
+    .box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
