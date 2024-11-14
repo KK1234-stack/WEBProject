@@ -1,0 +1,13 @@
+1.ReCaptcha. KK
+2.Cookies if possible KK
+3.Correct the logic of database. Books=0 shouldnt make the book itself disappear from the db NC
+4. improve the front end drastically KK NC
+5. in student-> books -> add books should be removed and make a "Cart" kind of things NC
+6. Student-> view books -> all the issued books-> return option as well as if due date missed -> fine NC
+7. Student-> Academic repository->for notes and library... KK
+8. Chatbot(optional) KK
+9. Admin-> in view students-> admin should be able to see all the books issued and student's behaviour vis a vis book condition and deadline discipline-> FINE can be levied. NC
+10. 
+
+
+
